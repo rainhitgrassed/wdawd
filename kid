@@ -861,7 +861,7 @@ function UILibrary.Main(PrjName,HideKey)
 
 				Progress.Name = "Progress"
 				Progress.Parent = Sliding
-				Progress.BackgroundColor3 = Color3.fromRGB(0, 123, 255)
+				Progress.BackgroundColor3 = Color3.fromRGB(112, 1, 2)
 				Progress.BorderSizePixel = 0
 				Progress.Size = UDim2.new(0.5, 0, 1, 0)
 
