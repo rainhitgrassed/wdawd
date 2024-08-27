@@ -502,7 +502,7 @@ function UILibrary.Main(PrjName,HideKey)
 		TabButton.MouseButton1Click:Connect(function()
 			IsTabOpened.Value = true
 			UIPageLayout:JumpTo(Frame)
-			TweenService:Create(TabButton,TweenInfo.new(0.25),{BackgroundTransparency = 0.3,BackgroundColor3 = Color3.fromRGB(112, 1, 2)}):Play()
+			TweenService:Create(TabButton,TweenInfo.new(0.25),{BackgroundTransparency = 0.3,BackgroundColor3 = Color3.fromRGB(51, 51, 51)}):Play()
 			TweenService:Create(FadeFrame,TweenInfo.new(0.5),{BackgroundTransparency = 1}):Play()
 			ReColorOtherBtns()
 		end)
@@ -630,7 +630,7 @@ function UILibrary.Main(PrjName,HideKey)
 				Checker.Name = "Checker"
 				Checker.Parent = Toggle
 				Checker.AnchorPoint = Vector2.new(0, 0.5)
-				Checker.BackgroundColor3 = Color3.fromRGB(112, 1, 2)
+				Checker.BackgroundColor3 = Color3.fromRGB(51, 51, 51)
 				Checker.BorderSizePixel = 0
 				Checker.Position = UDim2.new(0.935, 0, 0.5, 0)
 				Checker.Size = UDim2.new(0, 22, 0, 22)
@@ -818,7 +818,7 @@ function UILibrary.Main(PrjName,HideKey)
 				Circle.Name = "Circle"
 				Circle.Parent = Progress
 				Circle.AnchorPoint = Vector2.new(0, 0.5)
-				Circle.BackgroundColor3 = Color3.fromRGB(112, 1, 2)
+				Circle.BackgroundColor3 = Color3.fromRGB(51, 51, 51)
 				Circle.BorderSizePixel = 0
 				Circle.Position = UDim2.new(1, 0, 0.5, 0)
 				Circle.Size = UDim2.new(0, 12, 0, 12)
@@ -861,7 +861,7 @@ function UILibrary.Main(PrjName,HideKey)
 
 				Progress.Name = "Progress"
 				Progress.Parent = Sliding
-				Progress.BackgroundColor3 = Color3.fromRGB(112, 1, 2)
+				Progress.BackgroundColor3 = Color3.fromRGB(51, 51, 51)
 				Progress.BorderSizePixel = 0
 				Progress.Size = UDim2.new(0.5, 0, 1, 0)
 
@@ -1180,7 +1180,7 @@ function UILibrary.Main(PrjName,HideKey)
 					InnerCircle.Name = "InnerCircle"
 					InnerCircle.Parent = ChoosedCircle
 					InnerCircle.AnchorPoint = Vector2.new(0.5, 0.5)
-					InnerCircle.BackgroundColor3 = Color3.fromRGB(0, 123, 255)
+					InnerCircle.BackgroundColor3 = Color3.fromRGB(51, 51, 51)
 					InnerCircle.BackgroundTransparency = 1.000
 					InnerCircle.BorderSizePixel = 0
 					InnerCircle.Position = UDim2.new(0.5, 0, 0.5, 0)
